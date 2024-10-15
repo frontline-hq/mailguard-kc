@@ -6,6 +6,15 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
+}
+
+.centeredIcon {
+  display: block; /* Makes the SVG a block element */
+  margin: 0 auto; /* Centers the SVG horizontally */
+  max-width: 100px; /* Set a max-width for consistency */
+  height: auto; /* Keeps the aspect ratio */
+  margin: auto;
+  padding: 1rem 0rem;
 }
