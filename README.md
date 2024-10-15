@@ -1,6 +1,6 @@
 # Mailguard Knowledge Base
 
-Welcome to **Mailguard**, a comprehensive knowledge base dedicated to email authentication methods like **DMARC**, **DKIM**, and **SPF**, as well as providing detailed guides on how to effectively use the **Mailguard** platform.
+Welcome to the **Mailguard** Knowledge Base, a comprehensive knowledge base dedicated to email authentication methods like **DMARC**, **DKIM**, and **SPF**, as well as providing detailed guides on how to effectively use the **Mailguard** platform.
 
 ## About Mailguard
 
