@@ -20,6 +20,7 @@ We welcome contributions from the community! Whether you're an expert in email s
 ### How to Contribute
 
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+
 2. **Create a New Branch**: Use a descriptive branch name for your feature or fix.
    ```bash
    git checkout -b feature/your-feature-name
