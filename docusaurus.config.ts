@@ -40,18 +40,6 @@ const config: Config = {
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -61,12 +49,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Mailguard",
+      title: "",
       logo: {
-        alt: "My Site Logo",
-        src: "/img/frontline-logo.svg",
+        alt: "Mailguard logo",
+        src: "/img/mailguard-logo.svg",
       },
       items: [
         {
@@ -92,7 +79,7 @@ const config: Config = {
           title: " ",
           items: [
             {
-              label: "Mailguard",
+              label: "MailGuard",
               href: "https://mailguard.codes",
             },
             {
@@ -102,7 +89,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MailGuard - Powered by frontline`,
     },
     prism: {
       theme: prismThemes.github,
