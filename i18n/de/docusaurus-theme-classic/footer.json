@@ -1,0 +1,18 @@
+{
+  "link.title. ": {
+    "message": " ",
+    "description": "The title of the footer links column with title=  in the footer"
+  },
+  "link.item.label.MailGuard": {
+    "message": "MailGuard",
+    "description": "The label of footer link with label=MailGuard linking to https://mailguard.codes"
+  },
+  "link.item.label.frontline": {
+    "message": "frontline",
+    "description": "The label of footer link with label=frontline linking to https://frontline.codes"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 MailGuard - Powered by frontline",
+    "description": "The footer copyright"
+  }
+}
