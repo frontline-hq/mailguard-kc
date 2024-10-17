@@ -29,7 +29,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/knowledge-center/Starting%20with%20Mailguard/Getting%20started"
           >
-            <Translate> Learn about DMARC</Translate>
+            <Translate>Learn about DMARC</Translate>
           </Link>
         </div>
       </div>
