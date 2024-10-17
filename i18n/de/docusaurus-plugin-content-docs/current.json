@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Basics": {
+    "message": "Grundlagen",
+    "description": "The label for category Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Starting with Mailguard": {
+    "message": "Einstieg in Mailguard",
+    "description": "The label for category Starting with Mailguard in sidebar tutorialSidebar"
+  }
+}
