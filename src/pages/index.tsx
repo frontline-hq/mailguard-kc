@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+import Translate from "@docusaurus/Translate";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -15,20 +16,20 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className={`${styles.heroSubtitle} hero__subtitle`}>
-          {siteConfig.tagline}
+          <Translate>Mailguard Knowledge Center</Translate>
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/knowledge-center/Starting%20with%20Mailguard/Getting%20started"
           >
-            Start with Mailguard
+            <Translate>Start with Mailguard</Translate>
           </Link>
           <Link
             className="button button--secondary button--lg"
             to="/knowledge-center/Starting%20with%20Mailguard/Getting%20started"
           >
-            Learn about DMARC
+            <Translate> Learn about DMARC</Translate>
           </Link>
         </div>
       </div>
