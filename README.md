@@ -13,6 +13,30 @@ Mailguard helps secure your domain and protect your brand by offering insights i
 - **SPF**: Guides for setting up Sender Policy Framework to authorize legitimate email senders.
 - **Mailguard Platform**: Instructions and tutorials on how to use the Mailguard platform to monitor, enforce, and troubleshoot DMARC, DKIM, and SPF configurations.
 
+## Starting the Application
+
+To start the application, use the following command:
+
+```bash
+npm run start
+```
+
+### Starting a Specific Locale
+
+To start the application with a specific locale, use the following command (replace de with your desired locale):
+
+```bash
+npm run start -- --locale [locale]
+```
+
+### After Writing New Texts or Adding Files
+
+If you have written new texts or added files to the page, run the following command to update the translations:
+
+```bash
+npm run write-translations -- --locale [locale]
+```
+
 ## Contributing
 
 We welcome contributions from the community! Whether you're an expert in email security or a beginner learning about email authentication, you can help us improve and expand this knowledge base.
@@ -25,8 +49,11 @@ We welcome contributions from the community! Whether you're an expert in email s
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. **Write or Update Documentation**: Contribute by writing new guides, improving existing content, or adding tutorials.  
-   If you're adding a guide, please include clear instructions with code snippets, where applicable.  
+
+```
+
+3. **Write or Update Documentation**: Contribute by writing new guides, improving existing content, or adding tutorials.
+   If you're adding a guide, please include clear instructions with code snippets, where applicable.
    Ensure your information is accurate and up-to-date with the latest standards.
 
 4. **Submit a Pull Request**: Once your changes are ready, submit a pull request. Make sure to explain what your contribution includes and why it’s valuable.
@@ -60,3 +87,4 @@ This project is licensed under the [MIT License](LICENSE). By contributing, you 
 ## Contact
 
 If you have any questions about contributing or using Mailguard, feel free to reach out to us via [contact@frontline.codes](mailto:contact@frontline.codes).
+```
